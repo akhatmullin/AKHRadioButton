@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         radioButton.options = ["First", "Second", "Third", "Fourth", "Fifth"]
+        radioButton.direction = .horizontal
     }
     
 }
