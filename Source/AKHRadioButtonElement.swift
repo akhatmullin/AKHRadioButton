@@ -23,10 +23,18 @@ class AKHRadioButtonElement: UIButton {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        setup()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        setup()
+    }
+
+    // MARK: - Setup
+
+    private func setup() {
+        translatesAutoresizingMaskIntoConstraints = false
     }
     
     

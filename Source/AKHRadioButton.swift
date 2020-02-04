@@ -145,6 +145,7 @@ class AKHRadioButton: UIView {
                                          withAttributes: [NSAttributedString.Key.font : font]).width
             let elementWidth = textWidth + AKHRadioButtonElement.Constants.titleLeftPadding + heightOfElement
             element.frame = CGRect(x: 0, y: 0, width: elementWidth, height: heightOfElement)
+            element.heightAnchor.constraint(equalToConstant: heightOfElement).isActive = true
             
             elements.append(element)
             stackView.addArrangedSubview(element)
