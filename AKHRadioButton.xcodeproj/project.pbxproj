@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A447AFD723EA056A00FBED5A /* AKHRadioButtonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A447AFCD23EA056A00FBED5A /* AKHRadioButtonElement.swift */; };
+		A447AFD823EA056A00FBED5A /* radio_button_icon_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A447AFCF23EA056A00FBED5A /* radio_button_icon_on.png */; };
+		A447AFD923EA056A00FBED5A /* radio_button_icon_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A447AFD023EA056A00FBED5A /* radio_button_icon_off@3x.png */; };
+		A447AFDA23EA056A00FBED5A /* radio_button_icon_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A447AFD123EA056A00FBED5A /* radio_button_icon_off.png */; };
+		A447AFDB23EA056A00FBED5A /* radio_button_icon_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A447AFD223EA056A00FBED5A /* radio_button_icon_off@2x.png */; };
+		A447AFDC23EA056A00FBED5A /* radio_button_icon_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A447AFD323EA056A00FBED5A /* radio_button_icon_on@3x.png */; };
+		A447AFDD23EA056A00FBED5A /* radio_button_icon_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A447AFD423EA056A00FBED5A /* radio_button_icon_on@2x.png */; };
+		A447AFDE23EA056A00FBED5A /* AKHRadioButtonsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A447AFD523EA056A00FBED5A /* AKHRadioButtonsStackView.swift */; };
+		A447AFDF23EA056A00FBED5A /* AKHRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A447AFD623EA056A00FBED5A /* AKHRadioButton.swift */; };
+		A447AFF523EA06EE00FBED5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A447AFF423EA06EE00FBED5A /* Assets.xcassets */; };
+		A447AFFA23EA06FC00FBED5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A447AFF623EA06FC00FBED5A /* Main.storyboard */; };
+		A447AFFB23EA06FC00FBED5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A447AFF823EA06FC00FBED5A /* LaunchScreen.storyboard */; };
+		A447B00523EA0C0F00FBED5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A447B00323EA0C0F00FBED5A /* ViewController.swift */; };
+		A447B00623EA0C0F00FBED5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A447B00423EA0C0F00FBED5A /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A447AFB523EA049500FBED5A /* AKHRadioButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKHRadioButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A447AFCD23EA056A00FBED5A /* AKHRadioButtonElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKHRadioButtonElement.swift; sourceTree = "<group>"; };
+		A447AFCF23EA056A00FBED5A /* radio_button_icon_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_button_icon_on.png; sourceTree = "<group>"; };
+		A447AFD023EA056A00FBED5A /* radio_button_icon_off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_button_icon_off@3x.png"; sourceTree = "<group>"; };
+		A447AFD123EA056A00FBED5A /* radio_button_icon_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_button_icon_off.png; sourceTree = "<group>"; };
+		A447AFD223EA056A00FBED5A /* radio_button_icon_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_button_icon_off@2x.png"; sourceTree = "<group>"; };
+		A447AFD323EA056A00FBED5A /* radio_button_icon_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_button_icon_on@3x.png"; sourceTree = "<group>"; };
+		A447AFD423EA056A00FBED5A /* radio_button_icon_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_button_icon_on@2x.png"; sourceTree = "<group>"; };
+		A447AFD523EA056A00FBED5A /* AKHRadioButtonsStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKHRadioButtonsStackView.swift; sourceTree = "<group>"; };
+		A447AFD623EA056A00FBED5A /* AKHRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKHRadioButton.swift; sourceTree = "<group>"; };
+		A447AFF423EA06EE00FBED5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A447AFF723EA06FC00FBED5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A447AFF923EA06FC00FBED5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A447AFFC23EA071000FBED5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A447B00323EA0C0F00FBED5A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A447B00423EA0C0F00FBED5A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A447AFB223EA049500FBED5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A447AFAC23EA049500FBED5A = {
+			isa = PBXGroup;
+			children = (
+				A447AFCC23EA056A00FBED5A /* Source */,
+				A447AFE023EA05BF00FBED5A /* Example */,
+				A447AFB623EA049500FBED5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A447AFB623EA049500FBED5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A447AFB523EA049500FBED5A /* AKHRadioButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A447AFCC23EA056A00FBED5A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A447AFCE23EA056A00FBED5A /* Resources */,
+				A447AFCD23EA056A00FBED5A /* AKHRadioButtonElement.swift */,
+				A447AFD523EA056A00FBED5A /* AKHRadioButtonsStackView.swift */,
+				A447AFD623EA056A00FBED5A /* AKHRadioButton.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A447AFCE23EA056A00FBED5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A447AFCF23EA056A00FBED5A /* radio_button_icon_on.png */,
+				A447AFD123EA056A00FBED5A /* radio_button_icon_off.png */,
+				A447AFD423EA056A00FBED5A /* radio_button_icon_on@2x.png */,
+				A447AFD223EA056A00FBED5A /* radio_button_icon_off@2x.png */,
+				A447AFD323EA056A00FBED5A /* radio_button_icon_on@3x.png */,
+				A447AFD023EA056A00FBED5A /* radio_button_icon_off@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A447AFE023EA05BF00FBED5A /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				A447AFE223EA060800FBED5A /* Source Code */,
+				A447AFE323EA060E00FBED5A /* Resources */,
+				A447AFE123EA05FC00FBED5A /* Supporting Files */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		A447AFE123EA05FC00FBED5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A447AFFC23EA071000FBED5A /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A447AFE223EA060800FBED5A /* Source Code */ = {
+			isa = PBXGroup;
+			children = (
+				A447B00423EA0C0F00FBED5A /* AppDelegate.swift */,
+				A447B00323EA0C0F00FBED5A /* ViewController.swift */,
+			);
+			path = "Source Code";
+			sourceTree = "<group>";
+		};
+		A447AFE323EA060E00FBED5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A447AFF823EA06FC00FBED5A /* LaunchScreen.storyboard */,
+				A447AFF623EA06FC00FBED5A /* Main.storyboard */,
+				A447AFF423EA06EE00FBED5A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A447AFB423EA049500FBED5A /* AKHRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A447AFC923EA049800FBED5A /* Build configuration list for PBXNativeTarget "AKHRadioButton" */;
+			buildPhases = (
+				A447AFB123EA049500FBED5A /* Sources */,
+				A447AFB223EA049500FBED5A /* Frameworks */,
+				A447AFB323EA049500FBED5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKHRadioButton;
+			productName = AKHRadioButton;
+			productReference = A447AFB523EA049500FBED5A /* AKHRadioButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A447AFAD23EA049500FBED5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Alexey Khatmullin";
+				TargetAttributes = {
+					A447AFB423EA049500FBED5A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A447AFB023EA049500FBED5A /* Build configuration list for PBXProject "AKHRadioButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A447AFAC23EA049500FBED5A;
+			productRefGroup = A447AFB623EA049500FBED5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A447AFB423EA049500FBED5A /* AKHRadioButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A447AFB323EA049500FBED5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A447AFFB23EA06FC00FBED5A /* LaunchScreen.storyboard in Resources */,
+				A447AFD923EA056A00FBED5A /* radio_button_icon_off@3x.png in Resources */,
+				A447AFDB23EA056A00FBED5A /* radio_button_icon_off@2x.png in Resources */,
+				A447AFDC23EA056A00FBED5A /* radio_button_icon_on@3x.png in Resources */,
+				A447AFFA23EA06FC00FBED5A /* Main.storyboard in Resources */,
+				A447AFD823EA056A00FBED5A /* radio_button_icon_on.png in Resources */,
+				A447AFF523EA06EE00FBED5A /* Assets.xcassets in Resources */,
+				A447AFDD23EA056A00FBED5A /* radio_button_icon_on@2x.png in Resources */,
+				A447AFDA23EA056A00FBED5A /* radio_button_icon_off.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A447AFB123EA049500FBED5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A447AFDF23EA056A00FBED5A /* AKHRadioButton.swift in Sources */,
+				A447AFDE23EA056A00FBED5A /* AKHRadioButtonsStackView.swift in Sources */,
+				A447B00523EA0C0F00FBED5A /* ViewController.swift in Sources */,
+				A447B00623EA0C0F00FBED5A /* AppDelegate.swift in Sources */,
+				A447AFD723EA056A00FBED5A /* AKHRadioButtonElement.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A447AFF623EA06FC00FBED5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A447AFF723EA06FC00FBED5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A447AFF823EA06FC00FBED5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A447AFF923EA06FC00FBED5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A447AFC723EA049800FBED5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A447AFC823EA049800FBED5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A447AFCA23EA049800FBED5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhatmullin.AKHRadioButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A447AFCB23EA049800FBED5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhatmullin.AKHRadioButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A447AFB023EA049500FBED5A /* Build configuration list for PBXProject "AKHRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A447AFC723EA049800FBED5A /* Debug */,
+				A447AFC823EA049800FBED5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A447AFC923EA049800FBED5A /* Build configuration list for PBXNativeTarget "AKHRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A447AFCA23EA049800FBED5A /* Debug */,
+				A447AFCB23EA049800FBED5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A447AFAD23EA049500FBED5A /* Project object */;
+}
